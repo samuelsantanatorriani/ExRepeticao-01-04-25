@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Exercico 7</title>
+    <title>Exercicio 7</title>
 </head>
 <body>
-    <h2>Exercicio 7</h2>
+    <h2>Exercicio</h2>
     <form action="calcular.php" method="post">
-        <label for="palavra">Digite uma palavra ou frase:</label><br>
-        <input type="text" id="palavra" name="palavra" required><br><br>
+        <label for="n1">Digite um numero</label><br>
+        <input type="text" id="n1" name="n1" required><br><br>
 
-        <label for="quantidade">Quantas vezes deseja repetir?</label><br>
-        <input type="number" id="quantidade" name="quantidade" min="1" required><br><br>
-
-        <input type="submit" value="Enviar">
+        <input type="submit" value="calcular">
     </form>
 </body>
 </html>
